@@ -1,0 +1,20 @@
+{
+  "name": "websocket-quiz",
+  "version": "1.0.0",
+  "description": "A quiz in websockets",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "start": "nodemon client/index.js"
+  },
+  "author": "Peter Guntrip",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "uuid": "^3.3.2",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
