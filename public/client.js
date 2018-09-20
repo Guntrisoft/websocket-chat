@@ -91,4 +91,6 @@ document.getElementById('chat-form').addEventListener('submit', function (e) {
   );
 
   document.getElementById('message').value = '';
+
+  document.activeElement.blur();
 });
