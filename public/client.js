@@ -57,7 +57,7 @@ client.onclose = function(event) {
   console.log('onclose', event);
 };
 
-window.onbeforeunload = function () {
+window.onunload = function () {
   client.send(
     JSON.stringify({
       type: CLOSE_CLIENT_SESSION,
